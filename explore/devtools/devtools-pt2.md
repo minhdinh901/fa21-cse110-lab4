@@ -1,0 +1,2 @@
+1. The function `calculateSum` was receiving two strings and concatenating them together instead of receiving two numbers and adding them together. 
+2. Since we want `calculateSum` to add two numbers, we can manually cast the types of `num1` and `num2` to numbers by doing `Number(num1)` and `Number(num2)`.
